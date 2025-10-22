@@ -1,0 +1,14 @@
+{
+  "uid": "alert-banner-ui-extension-v2-app",
+  "type": "app",
+  "config": {
+    "name": "Alert Banner UI Extension App",
+	"description": "Parent app for the ticket alert banner card",
+    "distribution": "PRIVATE",
+    "auth": {
+		"type": "static",
+		"requiredScopes": ["tickets","crm.objects.deals.read"]
+	},
+    "permittedUrls": { "fetch": [], "iframe": [], "img": [] }
+  }
+}

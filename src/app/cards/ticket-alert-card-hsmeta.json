@@ -1,0 +1,10 @@
+{
+  "uid": "alert-card-v2",
+  "type": "card",
+  "config": {
+    "name": "Alert",
+    "location": "crm.record.sidebar",
+    "entrypoint": "/app/cards/TicketAlertCard.jsx",
+    "objectTypes": ["tickets", "deals"]
+  }
+}
