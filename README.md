@@ -2,16 +2,16 @@
 Short: A CRM UI extension that surfaces record-level alerts.
 
 ## Demo
-- Whenever I get time
+  - See alertcard.png
 
 ## Use cases
-- Warn agents on HS Record when `alert_present = true`
-- Display `alert_title`, `alert_type`, and `alert_message`
+  - Warn agents on HS Record when `alert_present = true`
+  - Display `alert_title`, `alert_type`, and `alert_message`
 
 ## Requirements
-- HubSpot account with CRM UI Extensions enabled
-- Properties on objects you target (examples below)
-- Scopes: `crm.objects.*`, `crm.objects.custom`, `crm.objects.cards.read`; for tickets, `tickets`
+  - HubSpot account with CRM UI Extensions enabled
+  - Properties on objects you target (examples below)
+  - Scopes: `crm.objects.*`, `crm.objects.custom`, `crm.objects.cards.read`; for tickets, `tickets`
 
 ## Install (CLI)
 ```bash
