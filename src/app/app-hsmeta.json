@@ -3,11 +3,11 @@
   "type": "app",
   "config": {
     "name": "Alert Banner UI Extension App",
-	"description": "Parent app for the ticket alert banner card",
+	"description": "Parent app for the Ticket alert banner card; functions on Deals, Companies, and Services also; last modified by Drew Zingleman 1-27-26; Uses properties alert_title (single-line text), alert_description (single-line text), alert_type (dropdown, lookup details on the HubSpot Alert Component), and alert_present (single checkbox). If alert properties are not present, they must be created. Card gets added to sidebar.",
     "distribution": "PRIVATE",
     "auth": {
 		"type": "static",
-		"requiredScopes": ["tickets","crm.objects.deals.read"]
+		"requiredScopes": ["tickets","crm.objects.deals.read","crm.objects.companies.read","crm.objects.services.read","crm.objects.custom.read"]
 	},
     "permittedUrls": { "fetch": [], "iframe": [], "img": [] }
   }
