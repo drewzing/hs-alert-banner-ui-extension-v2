@@ -5,6 +5,7 @@
     "name": "Alert",
     "location": "crm.record.sidebar",
     "entrypoint": "/app/cards/TicketAlertCard.jsx",
-    "objectTypes": ["tickets", "deals"]
+    "objectTypes": ["tickets", "deals", "company","services","p_contracts"]
+
   }
 }
